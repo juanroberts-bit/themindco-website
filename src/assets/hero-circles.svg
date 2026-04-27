@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900">
+  <rect width="1440" height="900" fill="#0f0f10"/>
+  <\!-- Radial glow centered right -->
+  <radialGradient id="glow" cx="68%" cy="52%" r="45%">
+    <stop offset="0%" stop-color="#2a2a35" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#0f0f10" stop-opacity="1"/>
+  </radialGradient>
+  <rect width="1440" height="900" fill="url(#glow)"/>
+  <\!-- Concentric circles centered right -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.055" stroke-width="0.8">
+    <circle cx="980" cy="468" r="40"/>
+    <circle cx="980" cy="468" r="80"/>
+    <circle cx="980" cy="468" r="120"/>
+    <circle cx="980" cy="468" r="165"/>
+    <circle cx="980" cy="468" r="215"/>
+    <circle cx="980" cy="468" r="268"/>
+    <circle cx="980" cy="468" r="325"/>
+    <circle cx="980" cy="468" r="386"/>
+    <circle cx="980" cy="468" r="452"/>
+    <circle cx="980" cy="468" r="522"/>
+    <circle cx="980" cy="468" r="597"/>
+    <circle cx="980" cy="468" r="678"/>
+    <circle cx="980" cy="468" r="764"/>
+    <circle cx="980" cy="468" r="856"/>
+    <circle cx="980" cy="468" r="955"/>
+    <circle cx="980" cy="468" r="1060"/>
+  </g>
+</svg>
