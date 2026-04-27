@@ -7,11 +7,12 @@ import SEOHead from "@/components/SEOHead";
 
 const SECTION_IDS = ["section-about-hero", "section-metrics", "section-values", "section-team"];
 
-// Fotos — copiá cada imagen a src/assets/team/ con estos nombres exactos
-// esteban.jpg, manuel.jpg, jessica.jpg, juan.jpg, ignacio.jpg, marco.jpg
+// Fotos — copiá cada imagen a public/team/ con estos nombres exactos
+// esteban.jpg, manuel.jpg, javier.jpg, jessica.jpg, juan.jpg, ignacio.jpg, marco.jpg
 const teamPhotos: Record<string, string> = {
   "Esteban Rubin":    "/team/esteban.jpg",
   "Manuel Benites":   "/team/manuel.jpg",
+  "Javier de Santos": "/team/javier.jpg",
   "Jessica Yankell":  "/team/jessica.jpg",
   "Juan Roberts":     "/team/juan.jpg",
   "Ignacio Quintana": "/team/ignacio.jpg",
@@ -37,6 +38,7 @@ const values = [
 const partners = [
   { name: "Esteban Rubin", title: "Founding Partner", focus: "Life Sciences, Strategy, Coaching", bio: "Founded TheMindCo in 2006. He specializes in Life Sciences, supporting pharma and medtech leaders globally on complex growth challenges — working closely with executives, CEOs, and founders. MD, MBA with prior experience at McKinsey.", linkedin: "https://www.linkedin.com/in/estebanrubin/" },
   { name: "Manuel Benites", title: "Managing Partner", focus: "Life Sciences and Consumer Goods", bio: "15+ years of experience across Life Sciences and CPG. Has participated in over 100 strategic projects, primarily supporting companies in LatAm and the US on strategy and high-stakes challenges. Creator of MakeTheCase and executive training programs delivered globally. He leads AI across TheMindCo.", linkedin: "https://www.linkedin.com/in/manubenites/" },
+  { name: "Javier de Santos", title: "Founder & Director", focus: "Life Sciences & MedTech", bio: "20+ years in consulting with experience across the US, Europe, and MedTech clients globally. Former Booz Allen consultant. He brings deep expertise in Life Sciences and Medical Technology, supporting senior leaders on complex strategic and commercial challenges.", linkedin: "https://www.linkedin.com/in/javierdesantos/" },
   { name: "Jessica Yankell", title: "US Partner", focus: "Consumer Goods, Innovation, Intersection Pharma & Consumer Goods", bio: "15+ years of combined experience across consulting and Food & Beverage, based in New York. She specializes in ambiguous research and innovation processes, and works deeply in CPG and increasingly at the intersection between pharma and CPG. Prior to consulting, she held roles at Ferrero and PepsiCo, bringing deep food and food tech industry experience.", linkedin: "https://www.linkedin.com/in/jessicayankell/" },
   { name: "Juan Roberts", title: "Europe Partner", focus: "Life Sciences, Competitive Intelligence, Business Development, M&A", bio: "10+ years of consulting experience supporting Life Sciences companies across Europe and LatAm. He focuses on Competitive Intelligence, advanced data analysis, and business development—often in M&A and strategic investment contexts.", linkedin: "https://www.linkedin.com/in/juan-roberts/" },
   { name: "Ignacio Quintana", title: "Principal", focus: "Pharma, Medtech, Life Sciences, Intersection Consumer Goods & Pharma", bio: "MD with 10+ years of consulting experience, focused on the intersection of Pharma and CPG. He supports complex strategic programs, including PMO leadership and expert advisory in high-impact decision processes.", linkedin: "https://www.linkedin.com/in/ignacio-quintana-29aa49144/" },

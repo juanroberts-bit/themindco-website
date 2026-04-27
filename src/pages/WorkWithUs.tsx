@@ -128,7 +128,7 @@ export default function WorkWithUs() {
                     name="name"
                     required
                     placeholder="Your full name"
-                    className="w-full px-4 py-3 rounded-xl bg-white/8 border border-white/15 text-primary-foreground placeholder:text-primary-foreground/30 text-sm focus:outline-none focus:border-primary/50 transition-colors"
+                    className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/15 text-white placeholder:text-white/30 text-sm focus:outline-none focus:border-primary/50 transition-colors [&:-webkit-autofill]:![box-shadow:inset_0_0_0_1000px_rgba(255,255,255,0.1)] [&:-webkit-autofill]:![-webkit-text-fill-color:white]"
                   />
                 </div>
 
@@ -139,7 +139,7 @@ export default function WorkWithUs() {
                     name="email"
                     required
                     placeholder="your@email.com"
-                    className="w-full px-4 py-3 rounded-xl bg-white/8 border border-white/15 text-primary-foreground placeholder:text-primary-foreground/30 text-sm focus:outline-none focus:border-primary/50 transition-colors"
+                    className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/15 text-white placeholder:text-white/30 text-sm focus:outline-none focus:border-primary/50 transition-colors [&:-webkit-autofill]:![box-shadow:inset_0_0_0_1000px_rgba(255,255,255,0.1)] [&:-webkit-autofill]:![-webkit-text-fill-color:white]"
                   />
                 </div>
 
