@@ -177,7 +177,7 @@ export default function Home() {
             subtitle="Global delivery, local presence."
             className="text-left text-primary-foreground [&>p]:text-primary-foreground/80"
           />
-          <p className="text-sm text-primary-foreground/50 mt-1">Barcelona · Buenos Aires · Miami · Milan · New York · Sao Paulo</p>
+          <p className="text-sm text-primary-foreground/50 mt-1">Buenos Aires · New York · Milan</p>
         </div>
       </section>
 
