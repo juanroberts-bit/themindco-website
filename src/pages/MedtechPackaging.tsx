@@ -12,7 +12,7 @@ const phases = [
       {
         title: "Opaque Markets Insight & Voice of the Customer",
         description:
-          "We turn weak signals into quantified market views — sizing demand, mapping decision dynamics, and surfacing customer truths through rigorous triangulation and fast-cycle synthesis.",
+          "We turn weak signals into quantified market views, sizing demand, mapping decision dynamics, and surfacing customer truths through rigorous triangulation and fast-cycle synthesis.",
       },
       {
         title: "Competitive Intelligence & Market Landscape",
@@ -96,7 +96,7 @@ const caseStudies = [
     tag: "Competitive Intelligence",
     title: "Five-year strategy and competitive intelligence for a global medtech leader",
     work:
-      "Interviewed all business unit heads and 50+ external stakeholders — clients, market experts, and former executives at key competitors. Identified competitor strategies per BU, sized untapped opportunities, and ran strategic workshops across the leadership team.",
+      "Interviewed all business unit heads and 50+ external stakeholders: clients, market experts, and former executives at key competitors. Identified competitor strategies per BU, sized untapped opportunities, and ran strategic workshops across the leadership team.",
     outcome:
       "Full competitive landscape per business unit. Workshops shaped the company's 5-year strategic direction.",
   },
@@ -106,7 +106,7 @@ const caseStudies = [
     work:
       "Diagnosed root causes of production-line bottlenecks and quantified the impact of alternative improvement pathways. Built a model to evaluate tradeoffs across service levels, cost, and scalability.",
     outcome:
-      "Quantified improvement roadmap delivered — client had a clear, data-backed basis for capital allocation and production investment decisions.",
+      "Quantified improvement roadmap delivered. Client had a clear, data-backed basis for capital allocation and production investment decisions.",
   },
 ];
 
@@ -169,7 +169,7 @@ export default function MedtechPackaging() {
             MedTech, Packaging &amp; Delivery Systems
           </h1>
           <p className="mt-4 text-sm sm:text-base md:text-lg max-w-2xl leading-relaxed text-primary-foreground/80">
-            We help medtech and packaging/delivery systems players clarify where to win — by understanding customer decision drivers, procurement dynamics, clinical workflows, regulatory constraints, and competitor strategies.
+            We help medtech and packaging/delivery systems players clarify where to win by understanding customer decision drivers, procurement dynamics, clinical workflows, regulatory constraints, and competitor strategies.
           </p>
         </div>
       </section>
@@ -213,7 +213,7 @@ export default function MedtechPackaging() {
                 <p className="text-[10px] font-semibold tracking-widest uppercase text-primary/70">{p.n} — {p.phase}</p>
                 {p.capabilities.map((c) => (
                   <div key={c.title} className="group rounded-lg border border-white/8 bg-white/3 hover:bg-white p-5 flex flex-col gap-2 transition-colors duration-200 cursor-default">
-                    <h4 className="font-semibold text-primary text-sm leading-snug">{c.title}</h4>
+                    <h4 className="font-bold text-primary text-base leading-snug">{c.title}</h4>
                     <p className="text-xs text-primary-foreground/50 group-hover:text-muted-foreground leading-relaxed transition-colors">{c.description}</p>
                   </div>
                 ))}
@@ -229,7 +229,7 @@ export default function MedtechPackaging() {
                 if (!c) return <div key={`${p.phase}-empty-${rowIdx}`} />;
                 return (
                   <div key={c.title} className="group rounded-lg border border-white/8 bg-white/3 hover:bg-white p-5 flex flex-col gap-2 transition-colors duration-200 cursor-default">
-                    <h4 className="font-semibold text-primary text-sm leading-snug">{c.title}</h4>
+                    <h4 className="font-bold text-primary text-base leading-snug">{c.title}</h4>
                     <p className="text-xs text-primary-foreground/50 group-hover:text-muted-foreground leading-relaxed transition-colors">{c.description}</p>
                   </div>
                 );

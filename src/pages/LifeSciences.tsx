@@ -26,7 +26,7 @@ const subPages = [
   {
     title: "MedTech, Packaging & Delivery Systems",
     href: "/industries/life-sciences/medtech-packaging-delivery-systems",
-    description: "Helping medtech and packaging players clarify where to win — through customer insights, competitive intelligence, and go-to-market strategy.",
+    description: "Helping medtech and packaging players clarify where to win through customer insights, competitive intelligence, and go-to-market strategy.",
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
         {/* Device screen */}
@@ -100,7 +100,7 @@ export default function LifeSciences() {
             Life Sciences
           </h1>
           <p className="mt-4 text-sm sm:text-base md:text-lg max-w-2xl leading-relaxed text-primary-foreground/80">
-            We support Life Sciences leaders navigating complex, regulated markets — where evidence, incentives, and stakeholder ecosystems drive adoption. We combine specialized research, strategy, and implementation support to help teams make defensible choices faster and deliver them through disciplined execution.
+            We support Life Sciences leaders navigating complex, regulated markets where evidence, incentives, and stakeholder ecosystems drive adoption. We combine specialized research, strategy, and implementation support to help teams make defensible choices faster and deliver them through disciplined execution.
           </p>
         </div>
       </section>

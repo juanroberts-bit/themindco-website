@@ -80,7 +80,7 @@ export default function Events() {
             Events &amp; Agenda
           </h1>
           <p className="mt-4 text-sm sm:text-base md:text-lg max-w-2xl leading-relaxed text-primary-foreground/80">
-            Where you'll find us — and what we're hosting.
+            Where you'll find us, and what we're hosting.
           </p>
           <div className="flex items-center gap-6 mt-6 pt-5 border-t border-white/15">
             <div className="flex items-center gap-2">
@@ -115,7 +115,7 @@ export default function Events() {
               )}
 
               {!isLoading && !isError && sortedEvents.length === 0 && (
-                <p className="text-sm text-muted-foreground py-8">No events scheduled yet — check back soon.</p>
+                <p className="text-sm text-muted-foreground py-8">No events scheduled yet. Check back soon.</p>
               )}
 
               {!isLoading && !isError && sortedEvents.map((event) => {
@@ -211,7 +211,7 @@ export default function Events() {
           </div>
 
           <p className="mt-16 text-xs text-muted-foreground/50 text-center tracking-wide">
-            More events to be announced — check back soon.
+            More events to be announced. Check back soon.
           </p>
         </div>
       </section>

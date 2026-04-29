@@ -55,7 +55,7 @@ const phases = [
       {
         title: "Clinical-Commercial Interface",
         description:
-          "Bridging science and strategy — from indication selection to HCP engagement planning as you approach commercialization.",
+          "Bridging science and strategy, from indication selection to HCP engagement planning as you approach commercialization.",
       },
     ],
   },
@@ -70,7 +70,7 @@ const howWeWork = [
   {
     title: "Credibility for the next conversation",
     description:
-      "Whether it's a board meeting, a partnership discussion, or an investor update — we help you show up with a defensible, decision-grade view.",
+      "Whether it's a board meeting, a partnership discussion, or an investor update, we help you show up with a defensible, decision-grade view.",
   },
   {
     title: "Stage-appropriate thinking",
@@ -94,7 +94,7 @@ const caseStudies = [
     work:
       "Interviewed KOLs and field physicians in Europe to map key success drivers, then conducted parallel research in the US on market potential, competitive landscape, and physician adoption dynamics. Built a forecasting model across multiple penetration scenarios.",
     outcome:
-      "US opportunity found smaller than initially projected due to pricing dynamics and high adoption of substitute molecules — saving significant investment in an unfavorable market.",
+      "US opportunity found smaller than initially projected due to pricing dynamics and high adoption of substitute molecules, saving significant investment in an unfavorable market.",
   },
   {
     tag: "Business Development",
@@ -102,7 +102,7 @@ const caseStudies = [
     work:
       "Identified an ideal regional partner for out-licensing a portion of a pharma portfolio in a mature market segment. Assessed competitive implications, supported portfolio valuation, and developed the pitch book for partnership discussions.",
     outcome:
-      "Regional partner identified and pitch book developed — enabling structured, credible outreach to prospective licensees.",
+      "Regional partner identified and pitch book developed, enabling structured, credible outreach to prospective licensees.",
   },
 ];
 
@@ -145,7 +145,7 @@ export default function Biotech() {
     <PageLayout>
       <SEOHead
         title="Biotech Strategy Consulting"
-        description="TheMindCo supports early-stage and growth-phase biotech companies on market strategy, business development, and go-to-market — from science to commercial reality."
+        description="TheMindCo supports early-stage and growth-phase biotech companies on market strategy, business development, and go-to-market, from science to commercial reality."
         canonical="/industries/life-sciences/pharmaceutical-companies/biotech"
       />
       <PharmaSubnav />
@@ -219,7 +219,7 @@ export default function Biotech() {
                 <p className="text-[10px] font-semibold tracking-widest uppercase text-primary/70">{p.n} — {p.phase}</p>
                 {p.capabilities.map((c) => (
                   <div key={c.title} className="group rounded-lg border border-white/8 bg-white/3 hover:bg-white p-5 flex flex-col gap-2 transition-colors duration-200 cursor-default">
-                    <h4 className="font-semibold text-primary text-sm leading-snug">{c.title}</h4>
+                    <h4 className="font-bold text-primary text-base leading-snug">{c.title}</h4>
                     <p className="text-xs text-primary-foreground/50 group-hover:text-muted-foreground leading-relaxed transition-colors">{c.description}</p>
                   </div>
                 ))}
@@ -235,7 +235,7 @@ export default function Biotech() {
                 if (!c) return <div key={`${p.phase}-empty-${rowIdx}`} />;
                 return (
                   <div key={c.title} className="group rounded-lg border border-white/8 bg-white/3 hover:bg-white p-5 flex flex-col gap-2 transition-colors duration-200 cursor-default">
-                    <h4 className="font-semibold text-primary text-sm leading-snug">{c.title}</h4>
+                    <h4 className="font-bold text-primary text-base leading-snug">{c.title}</h4>
                     <p className="text-xs text-primary-foreground/50 group-hover:text-muted-foreground leading-relaxed transition-colors">{c.description}</p>
                   </div>
                 );

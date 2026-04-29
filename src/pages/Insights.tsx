@@ -107,7 +107,7 @@ export default function Insights() {
               Insights
             </h1>
             <p className="mt-4 text-lg md:text-xl max-w-2xl leading-relaxed text-primary-foreground/75">
-              Signals, patterns, and decision-ready takes — built from real-world triangulation and fast-cycle synthesis.
+              Signals, patterns, and decision-ready takes, built from real-world triangulation and fast-cycle synthesis.
             </p>
           </div>
         </div>
@@ -166,7 +166,7 @@ export default function Insights() {
       {!isLoading && !isError && insights?.length === 0 && (
         <section className="section-padding bg-[#f5f4f2]">
           <div className="container-narrow text-center py-20">
-            <p className="text-muted-foreground text-sm">No insights published yet — check back soon.</p>
+            <p className="text-muted-foreground text-sm">No insights published yet. Check back soon.</p>
           </div>
         </section>
       )}

@@ -30,7 +30,7 @@ export default function Capabilities() {
             Capabilities
           </h1>
           <p className="mt-4 text-sm sm:text-base md:text-lg max-w-2xl leading-relaxed text-primary-foreground/80">
-            From signal to decision to execution — research depth, strategic rigor, and delivery support, deployed standalone or as an integrated engagement.
+            From signal to decision to execution: research depth, strategic rigor, and delivery support, deployed standalone or as an integrated engagement.
           </p>
         </div>
       </section>
@@ -63,7 +63,7 @@ export default function Capabilities() {
               <div className="w-6 h-px bg-primary/40 mt-3" />
             </div>
             <p className="text-base md:text-lg text-primary-foreground/70 leading-relaxed">
-              Each capability can be deployed standalone or combined into an integrated engagement — shaped around your question, timeline, and team.
+              Each capability can be deployed standalone or combined into an integrated engagement, shaped around your question, timeline, and team.
             </p>
           </div>
 

@@ -147,7 +147,7 @@ const howWeWork = [
   {
     title: "Same rigor, different context",
     description:
-      "We bring the same research and strategy discipline we apply in Life Sciences and Consumer Goods — adapted to the decision logic, stakeholder dynamics, and competitive realities of each industry.",
+      "We bring the same research and strategy discipline we apply in Life Sciences and Consumer Goods, adapted to the decision logic, stakeholder dynamics, and competitive realities of each industry.",
   },
   {
     title: "Built for B2B complexity",
@@ -157,7 +157,7 @@ const howWeWork = [
   {
     title: "From recommendation to adoption",
     description:
-      "We don't stop at the deck. We stay close through implementation, governance, and stakeholder alignment — until the strategy lands.",
+      "We don't stop at the deck. We stay close through implementation, governance, and stakeholder alignment until the strategy lands.",
   },
 ];
 
@@ -184,7 +184,7 @@ const caseStudies = [
     work:
       "Diagnosed root causes of production inefficiency and quantified the impact of alternative improvement pathways. Built a model to evaluate tradeoffs across throughput, cost, and scalability.",
     outcome:
-      "Quantified roadmap delivered — client had a clear, data-backed basis for capital allocation and production investment decisions.",
+      "Quantified roadmap delivered. Client had a clear, data-backed basis for capital allocation and production investment decisions.",
   },
 ];
 
@@ -248,7 +248,7 @@ export default function OtherIndustries() {
             Other Industries
           </h1>
           <p className="mt-4 text-sm sm:text-base md:text-lg max-w-2xl leading-relaxed text-primary-foreground/80">
-            Beyond our Life Sciences and Consumer Goods core, we work with leaders in Agroindustry, Energy, Financial Services, and Industrial Goods — bringing the same decision-grade research, strategy, and execution discipline to high-stakes decisions in complex markets.
+            Beyond our Life Sciences and Consumer Goods core, we work with leaders in Agroindustry, Energy, Financial Services, and Industrial Goods, bringing the same decision-grade research, strategy, and execution discipline to high-stakes decisions in complex markets.
           </p>
         </div>
       </section>
@@ -325,7 +325,7 @@ export default function OtherIndustries() {
                 <p className="text-[10px] font-semibold tracking-widest uppercase text-primary/70">{p.n} — {p.phase}</p>
                 {p.capabilities.map((c) => (
                   <div key={c.title} className="group rounded-lg border border-white/8 bg-white/3 hover:bg-white p-5 flex flex-col gap-2 transition-colors duration-200 cursor-default">
-                    <h4 className="font-semibold text-primary text-sm leading-snug">{c.title}</h4>
+                    <h4 className="font-bold text-primary text-base leading-snug">{c.title}</h4>
                     <p className="text-xs text-primary-foreground/50 group-hover:text-muted-foreground leading-relaxed transition-colors">{c.description}</p>
                   </div>
                 ))}
@@ -341,7 +341,7 @@ export default function OtherIndustries() {
                 if (!c) return <div key={`${p.phase}-empty-${rowIdx}`} />;
                 return (
                   <div key={c.title} className="group rounded-lg border border-white/8 bg-white/3 hover:bg-white p-5 flex flex-col gap-2 transition-colors duration-200 cursor-default">
-                    <h4 className="font-semibold text-primary text-sm leading-snug">{c.title}</h4>
+                    <h4 className="font-bold text-primary text-base leading-snug">{c.title}</h4>
                     <p className="text-xs text-primary-foreground/50 group-hover:text-muted-foreground leading-relaxed transition-colors">{c.description}</p>
                   </div>
                 );

@@ -33,7 +33,7 @@ export default function PharmaceuticalCompanies() {
     <PageLayout>
       <SEOHead
         title="Pharma & Biotech Strategy Consulting"
-        description="TheMindCo works with pharmaceutical and biotech companies — from global innovators to regional challengers. Portfolio strategy, competitive intelligence, licensing, and launch execution."
+        description="TheMindCo works with pharmaceutical and biotech companies, from global innovators to regional challengers. Portfolio strategy, competitive intelligence, licensing, and launch execution."
         canonical="/industries/life-sciences/pharmaceutical-companies"
       />
       {/* Hero */}
@@ -57,7 +57,7 @@ export default function PharmaceuticalCompanies() {
             Pharma &amp; Biotech
           </h1>
           <p className="mt-4 text-sm sm:text-base md:text-lg max-w-2xl leading-relaxed text-primary-foreground/80">
-            We work with pharmaceutical and biotech companies across the full spectrum—from global innovators to regional challengers to early-stage disruptors. Our work is built around the decisions that matter most: where to play, how to compete, and how to move. Strategy building, licensing, competitive intelligence and execution at the core.
+            We work with pharmaceutical and biotech companies across the full spectrum, from global innovators to regional challengers to early-stage disruptors. Our work is built around the decisions that matter most: where to play, how to compete, and how to move. Strategy building, licensing, competitive intelligence and execution at the core.
           </p>
         </div>
       </section>

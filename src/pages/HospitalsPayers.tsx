@@ -59,17 +59,17 @@ const howWeWork = [
   {
     title: "We navigate institutional complexity",
     description:
-      "Hospital and payer organizations are multi-layered. We know how decisions are actually made — and we design our work around that reality.",
+      "Hospital and payer organizations are multi-layered. We know how decisions are actually made, and we design our work around that reality.",
   },
   {
     title: "Pricing and access are strategic",
     description:
-      "Payer intelligence and reimbursement strategy are core to how we support both hospitals and life sciences teams working with them — not an afterthought.",
+      "Payer intelligence and reimbursement strategy are core to how we support both hospitals and life sciences teams working with them, not an afterthought.",
   },
   {
     title: "From recommendation to adoption",
     description:
-      "Institutional change is hard. We stay close through implementation, change management, and adoption — not just the strategy phase.",
+      "Institutional change is hard. We stay close through implementation, change management, and adoption, not just the strategy phase.",
   },
 ];
 
@@ -88,7 +88,7 @@ const caseStudies = [
     work:
       "Designed governance structure, workstream architecture, and performance tracking cadence for a large-scale transformation program. Aligned leadership across functional areas on milestones, accountability, and escalation pathways.",
     outcome:
-      "Program governance operational within weeks. Performance cadence adopted across all workstreams — enabling real-time visibility and faster issue resolution.",
+      "Program governance operational within weeks. Performance cadence adopted across all workstreams, enabling real-time visibility and faster issue resolution.",
   },
 ];
 
@@ -151,7 +151,7 @@ export default function HospitalsPayers() {
             Hospitals
           </h1>
           <p className="mt-4 text-sm sm:text-base md:text-lg max-w-2xl leading-relaxed text-primary-foreground/80">
-            We support hospital systems and the life sciences teams working with them — in improving decision-making, access strategy, and operational performance across complex institutional environments.
+            We support hospital systems and the life sciences teams working with them in improving decision-making, access strategy, and operational performance across complex institutional environments.
           </p>
         </div>
       </section>
@@ -195,7 +195,7 @@ export default function HospitalsPayers() {
                 <p className="text-[10px] font-semibold tracking-widest uppercase text-primary/70">{p.n} — {p.phase}</p>
                 {p.capabilities.map((c) => (
                   <div key={c.title} className="group rounded-lg border border-white/8 bg-white/3 hover:bg-white p-5 flex flex-col gap-2 transition-colors duration-200 cursor-default">
-                    <h4 className="font-semibold text-primary text-sm leading-snug">{c.title}</h4>
+                    <h4 className="font-bold text-primary text-base leading-snug">{c.title}</h4>
                     <p className="text-xs text-primary-foreground/50 group-hover:text-muted-foreground leading-relaxed transition-colors">{c.description}</p>
                   </div>
                 ))}
@@ -211,7 +211,7 @@ export default function HospitalsPayers() {
                 if (!c) return <div key={`${p.phase}-empty-${rowIdx}`} />;
                 return (
                   <div key={c.title} className="group rounded-lg border border-white/8 bg-white/3 hover:bg-white p-5 flex flex-col gap-2 transition-colors duration-200 cursor-default">
-                    <h4 className="font-semibold text-primary text-sm leading-snug">{c.title}</h4>
+                    <h4 className="font-bold text-primary text-base leading-snug">{c.title}</h4>
                     <p className="text-xs text-primary-foreground/50 group-hover:text-muted-foreground leading-relaxed transition-colors">{c.description}</p>
                   </div>
                 );

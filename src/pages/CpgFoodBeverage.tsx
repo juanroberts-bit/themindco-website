@@ -34,9 +34,9 @@ const steps = [
 ];
 
 const howWeWork = [
-  { title: "Partners do the work", description: "The people who scope the engagement are the ones who deliver it. Real judgment at every step — no handoffs to a team you've never met." },
-  { title: "Tailored to your question", description: "We don't apply a standard playbook. We start from your actual decision, your context, and your constraints — and build from there." },
-  { title: "Decisions over deliverables", description: "We measure success by what gets decided and what gets done — not by the weight of the deck we hand over." },
+  { title: "Partners do the work", description: "The people who scope the engagement are the ones who deliver it. Real judgment at every step, no handoffs to a team you've never met." },
+  { title: "Tailored to your question", description: "We don't apply a standard playbook. We start from your actual decision, your context, and your constraints, and build from there." },
+  { title: "Decisions over deliverables", description: "We measure success by what gets decided and what gets done, not by the weight of the deck we hand over." },
 ];
 
 const caseStudies = [

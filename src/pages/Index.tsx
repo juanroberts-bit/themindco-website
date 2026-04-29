@@ -111,7 +111,7 @@ export default function Home() {
             </p>
             <p className="text-xs text-primary-foreground/50 font-medium tracking-wide">2006 – 2026</p>
             <p className="mt-1 text-sm md:text-base text-primary-foreground/75 leading-relaxed max-w-lg">
-              Two decades of decision-grade research, strategy, and execution support—across Consumer Goods, Life Sciences, and complex ecosystems.
+              Two decades of decision-grade research, strategy, and execution support across Consumer Goods, Life Sciences, and complex ecosystems.
             </p>
           </div>
         </div>
@@ -143,7 +143,7 @@ export default function Home() {
               What we do
             </h2>
             <p className="text-base md:text-lg text-foreground/75 leading-relaxed">
-              We partner with leadership teams on growth, innovation, and transformation—bringing decision-grade research, competitive and market intelligence, customer and stakeholder insights, portfolio and go-to-market strategy, operating model design, and hands-on implementation support. We help teams align on choices, pressure-test assumptions, build credible narratives, and translate strategy into execution through disciplined PMO, change management, and practical capability building.
+              We partner with leadership teams on growth, innovation, and transformation, bringing decision-grade research, competitive and market intelligence, customer and stakeholder insights, portfolio and go-to-market strategy, operating model design, and hands-on implementation support. We help teams align on choices, pressure-test assumptions, build credible narratives, and translate strategy into execution through disciplined PMO, change management, and practical capability building.
             </p>
           </div>
         </div>

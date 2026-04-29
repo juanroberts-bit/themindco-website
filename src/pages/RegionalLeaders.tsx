@@ -13,7 +13,7 @@ const phases = [
       {
         title: "Market Assessment & Competitive Landscape",
         description:
-          "Market sizing, opportunity mapping, and competitive dynamics. Who's winning and why — decoded to P&L level when needed.",
+          "Market sizing, opportunity mapping, and competitive dynamics. Who's winning and why, decoded to P&L level when needed.",
       },
       {
         title: "Stakeholder & Customer Insights",
@@ -29,7 +29,7 @@ const phases = [
       {
         title: "Market Expansion & Portfolio Strategy",
         description:
-          "Where to grow next — new segments, geographies, channels, or partnerships. Indication prioritization and portfolio logic.",
+          "Where to grow next: new segments, geographies, channels, or partnerships. Indication prioritization and portfolio logic.",
       },
       {
         title: "Positioning & Value Proposition",
@@ -70,7 +70,7 @@ const howWeWork = [
   {
     title: "We speak your market",
     description:
-      "Regional context isn't a footnote. We design research and strategy around the realities of local markets — access dynamics, competitive field, stakeholder relationships.",
+      "Regional context isn't a footnote. We design research and strategy around the realities of local markets: access dynamics, competitive field, stakeholder relationships.",
   },
   {
     title: "Big-pharma rigor, faster cycles",
@@ -80,7 +80,7 @@ const howWeWork = [
   {
     title: "We stick around",
     description:
-      "We don't just hand over slides. We stay close through leadership alignment, execution planning, and stakeholder engagement — until the work actually lands.",
+      "We don't just hand over slides. We stay close through leadership alignment, execution planning, and stakeholder engagement until the work actually lands.",
   },
 ];
 
@@ -89,7 +89,7 @@ const caseStudies = [
     tag: "Competitive Intelligence",
     title: "Competitive deep-dive on regional pharma leaders across Latin America",
     work:
-      "100+ interviews across 10 countries — employees, former employees, market experts, KOLs, and physicians. Mapped competitor P&L, investment model, production footprint, and commercial structure at granular level.",
+      "100+ interviews across 10 countries: employees, former employees, market experts, KOLs, and physicians. Mapped competitor P&L, investment model, production footprint, and commercial structure at granular level.",
     outcome:
       "Full P&L model of the target competitor delivered. Findings fed directly into workshops with top leadership to shape multi-year regional strategy.",
   },
@@ -99,7 +99,7 @@ const caseStudies = [
     work:
       "Analyzed 5 years of historical sales data across 50+ products and 20+ channels. Identified inconsistencies per client and channel, surfaced improvement opportunities, and built a quantitative tool to model new rebate and discount policies.",
     outcome:
-      "~5% gross-to-net reduction achieved by implementing recommended actions — aligned across commercial and brand teams.",
+      "~5% gross-to-net reduction achieved by implementing recommended actions, aligned across commercial and brand teams.",
   },
   {
     tag: "Corporate Strategy",
@@ -177,10 +177,10 @@ export default function RegionalLeaders() {
             Regional Leaders
           </h1>
           <p className="mt-4 text-sm sm:text-base md:text-lg max-w-2xl leading-relaxed text-primary-foreground/80">
-            Regional and country-level pharma leaders facing competitive pressure and looking to grow — expanding their portfolio, entering new markets, and building the commercial infrastructure to compete at the next level.
+            Regional and country-level pharma leaders facing competitive pressure and looking to grow, expanding their portfolio, entering new markets, and building the commercial infrastructure to compete at the next level.
           </p>
           <p className="mt-2 text-sm sm:text-base text-primary-foreground/55">
-            Big-pharma rigor in faster cycles — built for resource-constrained teams.
+            Big-pharma rigor in faster cycles, built for resource-constrained teams.
           </p>
         </div>
       </section>
@@ -224,7 +224,7 @@ export default function RegionalLeaders() {
                 <p className="text-[10px] font-semibold tracking-widest uppercase text-primary/70">{p.n} — {p.phase}</p>
                 {p.capabilities.map((c) => (
                   <div key={c.title} className="group rounded-lg border border-white/8 bg-white/3 hover:bg-white p-5 flex flex-col gap-2 transition-colors duration-200 cursor-default">
-                    <h4 className="font-semibold text-primary text-sm leading-snug">{c.title}</h4>
+                    <h4 className="font-bold text-primary text-base leading-snug">{c.title}</h4>
                     <p className="text-xs text-primary-foreground/50 group-hover:text-muted-foreground leading-relaxed transition-colors">{c.description}</p>
                   </div>
                 ))}
@@ -240,7 +240,7 @@ export default function RegionalLeaders() {
                 if (!c) return <div key={`${p.phase}-empty-${rowIdx}`} />;
                 return (
                   <div key={c.title} className="group rounded-lg border border-white/8 bg-white/3 hover:bg-white p-5 flex flex-col gap-2 transition-colors duration-200 cursor-default">
-                    <h4 className="font-semibold text-primary text-sm leading-snug">{c.title}</h4>
+                    <h4 className="font-bold text-primary text-base leading-snug">{c.title}</h4>
                     <p className="text-xs text-primary-foreground/50 group-hover:text-muted-foreground leading-relaxed transition-colors">{c.description}</p>
                   </div>
                 );

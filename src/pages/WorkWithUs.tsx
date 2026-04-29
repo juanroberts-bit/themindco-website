@@ -90,7 +90,7 @@ export default function WorkWithUs() {
               We're a tight team of strategists, researchers, and operators. If you do sharp work on hard questions and care about impact, we'd like to hear from you.
             </p>
             <p className="mt-4 text-sm text-primary-foreground/50 max-w-sm leading-relaxed">
-              Drop your CV below — PDF or Word, max {MAX_MB} MB. We'll be in touch.
+              Drop your CV below: PDF or Word, max {MAX_MB} MB. We'll be in touch.
             </p>
           </div>
 
@@ -104,7 +104,7 @@ export default function WorkWithUs() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-primary-foreground">CV received</h3>
-                <p className="text-sm text-primary-foreground/60">Thanks — we'll review it and be in touch if there's a fit.</p>
+                <p className="text-sm text-primary-foreground/60">Thanks, we'll review it and be in touch if there's a fit.</p>
                 <Link to="/" className="mt-2 text-xs font-medium text-primary hover:text-primary/80 transition-colors">
                   Back to home →
                 </Link>

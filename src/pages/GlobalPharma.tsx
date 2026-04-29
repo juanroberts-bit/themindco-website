@@ -26,7 +26,7 @@ const phases = [
     capabilities: [
       {
         title: "Therapeutic Area & Category Strategy",
-        description: "Deep dives across therapeutic areas — from GLP-1 and oncology to specialty and emerging categories. Adoption constraints, differentiation logic, and strategic implications wherever the science is moving.",
+        description: "Deep dives across therapeutic areas, from GLP-1 and oncology to specialty and emerging categories. Adoption constraints, differentiation logic, and strategic implications wherever the science is moving.",
       },
       {
         title: "Business Development & Deal Strategy",
@@ -38,7 +38,7 @@ const phases = [
       },
       {
         title: "Marketing & Brand Strategy",
-        description: "Applying consumer marketing discipline to pharma — brand building, patient journey design, OTC/Rx crossover strategy, and DTC where regulation allows. Bridging the best of CPG thinking with pharma's unique constraints.",
+        description: "Applying consumer marketing discipline to pharma: brand building, patient journey design, OTC/Rx crossover strategy, and DTC where regulation allows. Bridging the best of CPG thinking with pharma's unique constraints.",
       },
     ],
   },
@@ -62,7 +62,7 @@ const howWeWork = [
   {
     title: "Senior access at every step",
     description:
-      "The people who scope the engagement deliver it. Real judgment throughout — no handoffs to teams you've never met.",
+      "The people who scope the engagement deliver it. Real judgment throughout, no handoffs to teams you've never met.",
   },
   {
     title: "Built for global complexity",
@@ -81,7 +81,7 @@ const caseStudies = [
     tag: "Portfolio Strategy",
     title: "OTC portfolio redesign across three European markets",
     work:
-      "Processed 2,000+ OTC drugs across France, Germany, and Italy. Interviewed 100+ stakeholders — KOLs, pharmacists, wholesalers, and distributors — to validate opportunities, assess channel dynamics, and test umbrella branding potential.",
+      "Processed 2,000+ OTC drugs across France, Germany, and Italy. Interviewed 100+ stakeholders: KOLs, pharmacists, wholesalers, and distributors, to validate opportunities, assess channel dynamics, and test umbrella branding potential.",
     outcome:
       "Optimal product bundle defined per geography. Detailed roadmap implemented; local teams aligned across all three markets.",
   },
@@ -91,7 +91,7 @@ const caseStudies = [
     work:
       "Assessed medical center footprint by segment, estimated FTEs required per center, and classified centers by commercial potential. Built a quantitative simulation tool to model responsibility reallocation between commercial and medical teams.",
     outcome:
-      "Actionable reallocation plan delivered with year-by-year FTE evolution — adapted to each country's market dynamics.",
+      "Actionable reallocation plan delivered with year-by-year FTE evolution, adapted to each country's market dynamics.",
   },
   {
     tag: "M&A Integration",
@@ -214,7 +214,7 @@ export default function GlobalPharma() {
                 <p className="text-[10px] font-semibold tracking-widest uppercase text-primary/70">{p.n} — {p.phase}</p>
                 {p.capabilities.map((c) => (
                   <div key={c.title} className="group rounded-lg border border-white/8 bg-white/3 hover:bg-white p-5 flex flex-col gap-2 transition-colors duration-200 cursor-default">
-                    <h4 className="font-semibold text-primary text-sm leading-snug">{c.title}</h4>
+                    <h4 className="font-bold text-primary text-base leading-snug">{c.title}</h4>
                     <p className="text-xs text-primary-foreground/50 group-hover:text-muted-foreground leading-relaxed transition-colors">{c.description}</p>
                   </div>
                 ))}
@@ -230,7 +230,7 @@ export default function GlobalPharma() {
                 if (!c) return <div key={`${p.phase}-empty-${rowIdx}`} />;
                 return (
                   <div key={c.title} className="group rounded-lg border border-white/8 bg-white/3 hover:bg-white p-5 flex flex-col gap-2 transition-colors duration-200 cursor-default">
-                    <h4 className="font-semibold text-primary text-sm leading-snug">{c.title}</h4>
+                    <h4 className="font-bold text-primary text-base leading-snug">{c.title}</h4>
                     <p className="text-xs text-primary-foreground/50 group-hover:text-muted-foreground leading-relaxed transition-colors">{c.description}</p>
                   </div>
                 );

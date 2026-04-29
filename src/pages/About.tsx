@@ -27,20 +27,20 @@ const metrics = [
 ];
 
 const values = [
-  { title: "Bespoke by default", description: "We don't do off-the-shelf. We tailor the work to the question, the context, and the decision you need to make—then craft outputs that are leadership-ready." },
-  { title: "Meet you where you are", description: "We plug into your reality—your data, your timelines, your stakeholders—filling gaps with robust research and analysis without slowing the business down." },
-  { title: "We get where you're coming from", description: "We build depth in categories and regulated ecosystems shaped by science, incentives, and culture—so our insights and recommendations are grounded in how markets actually work." },
-  { title: "AI-powered, human-led", description: "We use proprietary AI-enabled workflows to accelerate research, triangulation, and synthesis—so teams get sharper answers faster, with senior judgment and accountability at the core." },
-  { title: "Think globally, act locally", description: "We operate across markets with consistent standards—while respecting local nuance, on-the-ground realities, and what \"works\" in each context." },
-  { title: "We stick around 'til the job is done", description: "We don't just deliver slides. We stay close through PMO, change, and adoption—helping teams land the narrative, align stakeholders, and execute." },
+  { title: "Bespoke by default", description: "We don't do off-the-shelf. We tailor the work to the question, the context, and the decision you need to make, then craft outputs that are leadership-ready." },
+  { title: "Meet you where you are", description: "We plug into your reality: your data, your timelines, your stakeholders. We fill gaps with robust research and analysis without slowing the business down." },
+  { title: "We get where you're coming from", description: "We build depth in categories and regulated ecosystems shaped by science, incentives, and culture, so our insights and recommendations are grounded in how markets actually work." },
+  { title: "AI-powered, human-led", description: "We use proprietary AI-enabled workflows to accelerate research, triangulation, and synthesis, so teams get sharper answers faster, with senior judgment and accountability at the core." },
+  { title: "Think globally, act locally", description: "We operate across markets with consistent standards, while respecting local nuance, on-the-ground realities, and what \"works\" in each context." },
+  { title: "We stick around 'til the job is done", description: "We don't just deliver slides. We stay close through PMO, change, and adoption, helping teams land the narrative, align stakeholders, and execute." },
 ];
 
 const partners = [
-  { name: "Esteban Rubin", title: "Founding Partner", focus: "Life Sciences, Strategy, Coaching", bio: "Founded TheMindCo in 2006. He specializes in Life Sciences, supporting pharma and medtech leaders globally on complex growth challenges — working closely with executives, CEOs, and founders. MD, MBA with prior experience at McKinsey.", linkedin: "https://www.linkedin.com/in/estebanrubin/" },
+  { name: "Esteban Rubin", title: "Founding Partner", focus: "Life Sciences, Strategy, Coaching", bio: "Founded TheMindCo in 2006. He specializes in Life Sciences, supporting pharma and medtech leaders globally on complex growth challenges, working closely with executives, CEOs, and founders. MD, MBA with prior experience at McKinsey.", linkedin: "https://www.linkedin.com/in/estebanrubin/" },
   { name: "Manuel Benites", title: "Managing Partner", focus: "Life Sciences and Consumer Goods", bio: "15+ years of experience across Life Sciences and CPG. Has participated in over 100 strategic projects, primarily supporting companies in LatAm and the US on strategy and high-stakes challenges. Creator of MakeTheCase and executive training programs delivered globally. He leads AI across TheMindCo.", linkedin: "https://www.linkedin.com/in/manubenites/" },
   { name: "Javier de Santos", title: "Founder & Director", focus: "Life Sciences & MedTech", bio: "20+ years in consulting with experience across the US, Europe, and MedTech clients globally. Former Booz Allen consultant. He brings deep expertise in Life Sciences and Medical Technology, supporting senior leaders on complex strategic and commercial challenges.", linkedin: "https://www.linkedin.com/in/javierdesantos/" },
   { name: "Jessica Yankell", title: "US Partner", focus: "Consumer Goods, Innovation, Intersection Pharma & Consumer Goods", bio: "15+ years of combined experience across consulting and Food & Beverage, based in New York. She specializes in ambiguous research and innovation processes, and works deeply in CPG and increasingly at the intersection between pharma and CPG. Prior to consulting, she held roles at Ferrero and PepsiCo, bringing deep food and food tech industry experience.", linkedin: "https://www.linkedin.com/in/jessicayankell/" },
-  { name: "Juan Roberts", title: "Europe Partner", focus: "Life Sciences, Competitive Intelligence, Business Development, M&A", bio: "10+ years of consulting experience supporting Life Sciences companies across Europe and LatAm. He focuses on Competitive Intelligence, advanced data analysis, and business development—often in M&A and strategic investment contexts.", linkedin: "https://www.linkedin.com/in/juan-roberts/" },
+  { name: "Juan Roberts", title: "Europe Partner", focus: "Life Sciences, Competitive Intelligence, Business Development, M&A", bio: "10+ years of consulting experience supporting Life Sciences companies across Europe and LatAm. He focuses on Competitive Intelligence, advanced data analysis, and business development, often in M&A and strategic investment contexts.", linkedin: "https://www.linkedin.com/in/juan-roberts/" },
   { name: "Ignacio Quintana", title: "Principal", focus: "Pharma, Medtech, Life Sciences, Intersection Consumer Goods & Pharma", bio: "MD with 10+ years of consulting experience, focused on the intersection of Pharma and CPG. He supports complex strategic programs, including PMO leadership and expert advisory in high-impact decision processes.", linkedin: "https://www.linkedin.com/in/ignacio-quintana-29aa49144/" },
   { name: "Marco Decastri", title: "Manager Europe", focus: "Life Sciences, Competitive Intelligence, Business Development", bio: "Leads TheMindCo's Milan office with 7+ years of consulting experience focused on Pharma and MedTech. He supports strategy and execution programs across European and global contexts.", linkedin: "https://www.linkedin.com/in/marco-decastri/" },
 ];
@@ -78,7 +78,7 @@ export default function About() {
       <div id="section-about-hero">
         <PageHero
           title="About TheMindCo"
-          subtitle="TheMindCo is a boutique research and strategy partner built to help teams make high-stakes decisions in complex markets. We connect science, human behavior, and business reality to produce clear, structured outputs—then stay close through execution when needed."
+          subtitle="TheMindCo is a boutique research and strategy partner built to help teams make high-stakes decisions in complex markets. We connect science, human behavior, and business reality to produce clear, structured outputs, then stay close through execution when needed."
           backgroundImage={aboutHeroBg}
         />
       </div>
@@ -149,7 +149,7 @@ export default function About() {
                 {/* Info */}
                 <h4 className="font-semibold">{p.name}</h4>
                 <p className="text-sm text-muted-foreground">{p.title}</p>
-                <p className="text-xs text-primary mt-1">{p.focus}</p>
+                <p className="text-sm font-semibold text-primary mt-1">{p.focus}</p>
                 <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{p.bio}</p>
                 <a href={p.linkedin} target="_blank" rel="noopener noreferrer" className="inline-block mt-3 text-xs font-medium text-primary hover:text-primary/80 transition-colors">
                   LinkedIn →
